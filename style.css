@@ -1,0 +1,83 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0px 30px;
+}
+
+.logo-img {
+    width: 150px;
+
+}
+
+.menu li {
+    padding: 6px 30px;
+    color: white;
+    background-color: #c20031;
+    margin-left: -4px;
+}
+
+.menu li:hover {
+    background-color: #c9c9c9c9;
+    color: black;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    background-color: #c9c9c9c9;
+    height: 90vh;
+}
+
+.contenitore-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.header-contenitore-main {
+    background-color: #c20031;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.prezzo-contenitore-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    color: #c20031;
+}
+
+.prezzo-contenitore-main p {
+    font-size: 40px;
+}
+
+#prezzo {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.prezzo-contenitore-main a {
+    font-size: 25px;
+}
