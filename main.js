@@ -18,7 +18,7 @@ var sconto = 0;
 
   if (eta < 18) {
     sconto = (prezzo * 20) / 100
-} if (eta > 65) {
+} else if (eta > 65) {
     sconto = (prezzo * 40) / 100
 };
 
